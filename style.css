@@ -1,0 +1,112 @@
+/* font-family-site */
+@font-face {
+  font-family: "vazir";
+  src: url(font/Vazir.eot) format("eot"), url(font/Vazir.ttf) format("truetype"),
+    url(font/Vazir.woff) format("woff"), url(font/Vazir.woff2) format("woff2");
+}
+* {
+  font-family: "vazir";
+}
+/* start-code */
+.bg-header{
+  background-color: rgba(241, 242, 243, 0.342);
+  color: black;
+}
+
+.carousel-caption-1{
+    position: absolute;
+    right: 25%;
+    top: 44%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 50%;
+    background-color: rgba(0, 33, 139, 0.685);
+    border-radius: 20px;
+    color: white;
+}
+.caption-1-1{
+  position: absolute;
+  right: 25%;
+  top: 42%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 50%;
+  background-color: rgb(240 248 255 / 80%);
+  border-radius: 20px;
+  color: black;
+}
+
+.border-image{
+  border-radius: 15px;
+}
+.font-size-1{
+  font-size: 15px;
+}
+.font-size-2{
+  font-size: 13px;
+  font-weight: 400;
+}
+.img-animation:hover{
+  animation: card-hover-1 1.5s alternate;
+}
+@keyframes card-hover-1 {
+  20%{
+    transform: scale(.85);
+  }
+  50%{
+    transform: rotate(0deg) rotate(-360deg);
+  }
+}
+.m-auto-1{
+  margin-right: 30%;
+}
+.m-auto-2{
+  margin-right: 40%;
+}
+.text-reb{
+  color: indigo;
+}
+.border-radius-1{
+  border-radius: 10px;
+}
+.bk-image{
+  height: 500px;
+  background-image: url(img/big4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.bg-dark-1 {
+  background-color: #343a4054 !important;
+}
+.font-size-larg{
+  font-size: 45px;
+}
+.card-1 {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  border-radius: 0.25rem;
+}
+.w-15{
+  width: 15% !important;
+}
+.w-35{
+  width: 35% !important;
+}
+.h-150{
+  height: 150px !important;
+}
